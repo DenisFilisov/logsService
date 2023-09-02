@@ -1,0 +1,17 @@
+application:
+  name: crud
+
+port: "8080"
+
+db:
+  host: "localhost"
+  port: "5432"
+  username: "postgres"
+  dbname: "postgres"
+  sslmode: "disable"
+
+kafka:
+  bootstrap_servers: "localhost:29092"
+  group-id: "group1"
+  topics:
+    consumer: "logs"

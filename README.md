@@ -1,6 +1,6 @@
 # logsService
 
-Service for save.
+Service for save logs.
 
 **What is contained:**
 1. Kafka consumer implementation
